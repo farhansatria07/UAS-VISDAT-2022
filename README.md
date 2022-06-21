@@ -18,7 +18,6 @@
   </p>
   
 <h3>3. Metode Penelitian</h3>
-  <h4> A. Studi Literatur </h4>
   <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metode yang digunakan dalam penelitian ini adalah text mining dan analisis jejaring sosial (Social Network Analysis). Text mining digunakan untuk melihat kata yang sering muncul terkait Borobudur dan respon penggguna twitter terkait wacana kenaikan harga tiket. Sedangkan Social Network Analysis untuk melihat aktor penting atau sentral dalam penyebaran informasi wacana kenaikan harga tiket Candi Borobudur di media sosial twitter.
 </p>
@@ -26,156 +25,155 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metode text mining yang digunakan dalam penelitian ini adalah pembentukan wordcloud dan analisis sentimen (sentiment analysis). Secara sederhana, wordcloud bisa diartikan sebagai visualisasi kata-kata di mana ukurannya disesuaikan dengan frekuensi munculnya kata tersebut. Wordcloud akan memudahkan pembaca untuk melihat kata-kata yang sering muncul terkait suatu topik. Sedangkan analisis sentimen merupakan analisis teks untuk mengidentifikasi dan mengklasifikasikan pendapat seseorang terkait topik tertentu.
 </p>
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Social Network Analysis (SNA) merupakan analisis yang digunakan untuk merepresentasikan hubungan antar beberapa orang, komunitas, atau perusahaan dengan menggunakan teknik analisis grafik (Selisker, 2017) [9].   SNA ini sering digunakan untuk menentukan aktor sentral di dalam sebuah jaringan dengan menghitung nilai centrality. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Social Network Analysis (SNA) merupakan analisis yang digunakan untuk merepresentasikan hubungan antar beberapa orang, komunitas, atau perusahaan dengan menggunakan teknik analisis grafik.   SNA ini sering digunakan untuk menentukan aktor sentral di dalam sebuah jaringan dengan menghitung nilai centrality. 
 </p>
-  <h4> B. Pengumpulan Data </h4>
-  <p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data yang akan digunakan merupakan indikator kemiskinan yang dirilis oleh BPS yang terdiri atas 5 variabel meliputi:
-  <ol>
-    <li>Variabel Jumlah Penduduk Miskin</li>
-    <li>Variabel Persentase Penduduk Miskin</li>
-    <li>Variabel Garis Kemiskinan</li>
-    <li>Variabel Indeks Kedalaman Kemiskinan</li>
-    <li>Variabel Indeks Keparahan Kemiskinan</li>
-    <li>Variabel Indeks Gini (<i>Gini Ratio</i>)</li>
-  </ol> 
-Kelima variabel data yang dikumpulkan dari tahun 2011 hingga 2021, baik dalam lingkup nasional maupun lingkup provinsi. 
-  </p>
-  <h4> C. Pengolahan Data </h4>
-  <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pada proses pengolahan data dilakukan beberapa tahapan sebelum data divisualisasikan. Tahapan pengolahan data ini penting karena data-data yang telah dihimpun perlu disesuaikan dan diseleksi berdasarkan referensi waktu dan wilayah cakupan penelitian. Tahapan pengolahan data ini meliputi pembersihan data (<i>data cleaning</i>), identifikasi variabel, penyatuan data (<i>data integration</i>), perencanaan jenis visualisasi, dan konversi data (<i>data convertion</i>). Seluruh tahapan dalam pengolahan data dilakukan pada <i>Microsoft Office Excel</i> dan <i>R</i>.    
-  </p>
-  <h4> D. Visualisasi Data </h4>
-  <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pada tahapan ini, data yang sudah diolah akan dilakukan visualisasi sesuai dengan rencana jenis visualisasi yang telah ditetapkan sebelumnya. Alat atau tools dalam pembuatan visualisasi data ini menggunakan beberapa library visualisasi data di dalam koleksi modul R. Library tersebut antara lain <i>highcharter, DT, plotly, ggplot2, mapview,</i> dan lain-lain. Adapun dalam pemilihan warna dan tema grafik menggunakan library viridis untuk memberikan efek gradien warna pada chart visualisasi data tertentu yang memberikan penekanan atau maksud tertentu. Berikut ini rencana jenis visualisasi yang akan dibuat:
-  <ul>
-    <li>Visualisasi Teks Sederhana (<i>Simple Text</i>)</li>
-    <li>Visualisasi <i>Bar Chart</i></li>
-    <li>Visualisasi <i>Pie Chart</i>
-    <li>Visualisasi <i>Line Chart</i></li>
-    <li>Visualisasi Tabular (<i>Data Table</i>)</li>
-    <li>Visualisasi Peta Tematik Interaktif (<i>Interactive Choropleth Map</i>)</li>
-  </ul>
-  </p>
-  
-  <h4> E. <i>Design Dashboard</i></h4>
-  <p><i>Design Dashboard</i> dibuat menggunakan aplikasi <i>Figma</i>. Berikut ini tampilan <i>design dashboard</i> tiap halaman.</p>
-  <ol>
-  <li><h5><i>Design Dashboard</i> Halaman Utama (Lingkup Nasional)</h5></li>
-  <img src="Images/Design_Dashboard_1.png"> </img>
-  
-  <li><h5><i>Design Dashboard</i> Halaman Kedua (Lingkup Provinsi)</h5></li>
-  <img src="Images/Design_Dashboard_2.png"> </img>
-  
-  <li><h5><i>Design Dashboard</i> Halaman Pencarian</h5></li>
-  <img src="Images/Design_Dashboard_3.png"> </img>
-  
-  <li><h5><i>Design Dashboard</i> Halaman Informasi</h5></li>
-  <img src="Images/Design_Dashboard_4.png"> </img>
-  </ol>
+<p align="center">
+<img src="UAS_VISDAT/Foto_Pendukung/Metode_Penelitian.PNG"> </img>
+<p align="center">
+<caption align ="center" >Gambar 1. Tahapan Metode Penelitian</caption>
+</p>
+</p>
 
-  <h4> F. Perancangan <i>Dashboard</i></h4>
-  <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Dashboard</i> yang efektif didesain dengan penuh cermat dan mempertimbangkan peran dari pengguna dalam pengambilan keputusan. Haryanti (2008) menjabarkan mengenai metodologi pembangunan dasbor terdiri atas 7 tahap, meliputi identifikasi kebutuhan, perencanaan, perancangan prototype, <i>review prototype</i>, implementasi, <i>deployment</i>, dan <i>maintenance</i>.
-</p>
-  
-  <h4> G. Evaluasi Sistem</h4>
-  <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluasi sistem yang digunakan menggunakan pengukuran dengan <i>System Usability Scale (SUS)</i>. Pengujian SUS dilakukan untuk mengukur tingkat kegunaan suatu aplikasi. SUS dilakukan dengan mengisi kuesioner yang terdiri atas 10 item pernyataan mengenai sistem yang dibangun. Pernyataan diukur menggunakan skala likert 1-5 dengan definisi sangat tidak setuju hingga sangat setuju. Dalam konteks ini, aplikasi yang akan dievaluasi berupa <i>dashboard</i> informasi profil kemiskinan Indonesia tahun 2021.
-  </p>
-  
-  <h4> H. Penyusunan Laporan</h4>
-  <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tahap akhir dalam penelitian ini adalah melakukan penyusunan laporan. Laporan ini akan dibuat dalam format IEEE dengan menyesuaikan isi yang terdapat pada proposal penelitian dan hasil yang diperoleh dari pembuatan dashboard informasi mengenai profil kemiskinan di Indonesia tahun 2021 hingga proses publikasi ke dalam web server telah selesai dilakukan. 
-  </p>
-  
+<ol>
+  <li> Pengambilan data dilakukan dengan crawling data twitter dengan menggunakan bot pada aplikasi berbasis web Netlytic.org dengan kata kunci “Borobudur” pada tanggal 8 Juni 2022. Jumlah data yang diambil adalah sebanyak 10.000 cuitan </li>
+  <li> Cuitan yang telah diambil dilakukan proses cleaning data. Proses ini bertujuan untuk menghilangkan noise dalam cuitan seperti url, link, hastag, menghapus kode ascii dan kata penghubung seperti “yg”, “mjd” ,”utk” serta Cuitan yang bukan berasal dari bahasa Indonesia </li>
+  <li> Tweet yang telah di preprocessing, Data dilakukan analisis menggunakan Wordcloud Analysis, Sentiment Analysis dan Social Network Analysis. </li>
+ </ol>
+
+<p>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Software yang digunakan dalam proses pengolahan data adalah R studio, Microsoft Excel, dan Gephi 0.9.2. R studio dan Microsoft Excel digunakan dalam proses pengambilan dan pembersihan data tweets, pembuatan wordcloud, serta analisis sentiment. Sedangkan Gephi digunakan untuk melakukan Social Network Analysis (SNA)
+ </p>
+
   <h3>4. Hasil dan Pembahasan</h3>
-  <h4>A. Hasil Tampilan <i>Dashboard</i> dan Visualisasi Data</h4>
-    <ol type="1">
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Utama pada Sub-Menu 1</h5></li>
-      <img src="Images/Dashboard_HalamanUtama.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Utama pada Sub-Menu 2</h5></li>
-      <img src="Images/Dashboard_HalamanUtama_1.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Utama pada Sub-Menu 3</h5></li>
-      <img src="Images/Dashboard_HalamanUtama_2.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Utama pada Sub-Menu 4</h5></li>
-      <img src="Images/Dashboard_HalamanUtama_3.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Utama pada Sub-Menu 5</h5></li>
-      <img src="Images/Dashboard_HalamanUtama_4.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Kedua pada Sub-Menu 1</h5></li>
-      <img src="Images/Dashboard_HalamanKedua.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Kedua pada Sub-Menu 2</h5></li>
-      <img src="Images/Dashboard_HalamanKedua_1.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Kedua pada Sub-Menu 3</h5></li>
-      <img src="Images/Dashboard_HalamanKedua_2.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Kedua pada Sub-Menu 4</h5></li>
-      <img src="Images/Dashboard_HalamanKedua_3.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Pencarian</h5></li>
-      <img src="Images/Dashboard_HalamanPencarian.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Pencarian dengan Mencoba Fitur Filter Data</h5></li>
-      <img src="Images/Dashboard_HalamanPencarian_demo.png"> </img>
-      <li><h5>Tampilan <i>Dashboard</i> Halaman Informasi</h5></li>
-      <img src="Images/Dashboard_HalamanInformasi.png"> </img>
-    </ol>
-    
- <h4>B. Evaluasi <i>Dashboard</i></h4>
 <p align="justify"> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Dashboard</i> yang telah dibuat perlu dievaluasi kepada pengguna (<i>user</i>) agar dapat dinilai secara objektif. Penilaian evaluasi menggunakan pengukuran <i>System Usability Scale</i> (SUS). Ketika SUS digunakan, responden akan diminta untuk menilai sepuluh item pertanyaan dengan memilih salah satu jawaban dari lima tanggapan berkisar dari sangat setuju hingga sangat tidak setuju. Survei telah dilakukan untuk memperoleh nilai SUS untuk <i>dashboard</i> informasi profil kemiskinan Indonesia tahun 2021. Periode survei dilakukan selama 3 hari, yaitu 18-20 Juni 2022. Dari survei tersebut diperoleh jumlah responden sebanyak 89 orang. Gambar berikut merupakan visualisasi yang menggambarkan karakteristik responden berdasarkan kelompok pengguna yang mengikuti survei evaluasi <i>dashboard</i> informasi profil kemiskinan Indonesia tahun 2021.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jumlah data tweets terkait Borobudur pada tanggal 8 Juni 2022 yang dihasilkan dari proses crawling adalah sebanyak 10.000 tweets. Setelah dilakukan proses cleaning data, 	menghapus tweet yang bukan berasal dari Indonesia dan tidak berkaitan dengan Borobudur, diperoleh data sebanyak 8.410 tweets. Selanjutnya dilakukan analisis terhadap data tersebut.
 </p>
+
 <p align="center">
-<img src="Images/proporsi_responden.png"> </img>
+<img src="UAS_VISDAT/Visualisasi/Word_Cloud.jpg" width="300" height="300"> </img>
+<p align="center">
+<caption align ="center" >Gambar 2. Wordcloud Wacana Kenaikan Harga Tiket Candi Borobudur</caption>
+</p>
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Responden yang menjadi sasaran survei merupakan kelompok pengguna dari kalangan masyarakat umum dan kelompok mahasiswa STIS. Jumlah responden dari kalangan masyarakat umum yaitu 39 orang, sedangkan responden dari kelompok mahasiswa STIS yaitu 50 orang. Jumlah responden tersebut sudah dirasa cukup untuk digunakan sebagai penilaian evaluasi pada <i>dashboard</i>. Setelah itu dilakukan penghitungan skor dengan aturan sebagai berikut:
-Q_odd=(scale position-1)×2.5
-Q_even=(5-scale position)×2.5
-Pada pertanyaan bernomor ganjil, semakin tinggi nilai scale position, maka skor pada item pertanyaan tersebut akan semakin besar. Sedangkan pada pertanyaan bernomor genap, semakin tinggi nilai scale position, maka skor pada item pertanyaan tersebut akan semakin kecil. Berdasarkan rumus sebelumnya, maka diperoleh distribusi frekuensi skor-skor dari 89 responden yang ditampilkan pada histogram.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisis wordcloud digunakan untuk mengetahui kata-kata yang sering muncul terkait wacana kenaikan harga tiket Candi Borobudur. Semakin sering sebuah kata muncul, maka ukuran kata yang muncul akan semakin besar. Gambar 2 menunjukan bahwa tiga kata yang paling sering muncul adalah kata ”Borobudur”, “Candi” dan “Buddha”.
 </p>
-<p align="center">
-<img src="Images/histogram_skor_sus.png"> </img>
+<p align="justify">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kata yang sering muncul adalah “Borobudur”, “candi”, dan “Buddha” dengan total 310 cuitan. Ketiga kata tersebut memiliki korelasi yang sangat kuat karena Candi Borobudur merupakan Candi Buddha terbesar di Dunia Kata Selanjutnya yang sering muncul adalah “patung” pada 40 cuitan. Seperti yang diketahui salah satu penyebab wacana terkait kenaikan harga tiket Candi Borobudur karena beberapa patung mengalami kerentanan, pelapukan batuan, ancaman erupsi merapi dan adanya vandalisme.
+</p>
+<p align="justify">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kemudian kata yang sering muncul adalah “tiket” dan “mahal” dengan total pada 43 cuitan. Kedua kata tersebut merupakan hasil respon warganet di twitter terkait wacana kenaikan harga tiket Candi Borobudur. Warganet menilai Rp 750.000 untuk biaya tiket Candi Borobudur termasuk mahal. Selain beberapa kata tersebut, kata lain yang juga sering muncul secara berturut-turut adalah “kepala”, “hilang”,“museum”, “jual”, “tertulis”, dan  ”wisata”. Frekuensi munculnya kata-kata tersebut lebih dari 500 kali.
 </p>
 
-<p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dari histogram di atas, distribusi skor dari sebagian besar responden cenderung berada di atas rata-rata. Adapun rata-rata skor yang dihasilkan adalah sebesar 76,88, dengan nilai minimum sebesar 37,5 dan nilai maksimum sebesar 100. Rata-rata skor SUS menunjukkan tingkat penerimaan pengguna terhadap sistem (dashboard). Skor SUS 76,88 masuk ke dalam kategori acceptable karena bernilai lebih dari 70, kategori adjective berupa excellent, dan kategori grade B. Kategori penilaian skor SUS dijelaskan pada gambar di bawah ini.
-</p>
 <p align="center">
-<img src="Images/kategori_skor_sus.jpg"> </img>
-</p>  
+<img src="UAS_VISDAT/Visualisasi/Sentimen(1).PNG" > </img>
+<p align="center">
+  <caption align ="center" >Gambar 3. <i>Pie Chart Sentiment Analysis</i> pada cuitan terkait Wacana Kenaikan Harga Tiket Candi Borobudur</caption>
+</p></p>
   
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambar 3 menunjukkan hasil sentiment analysis terkait wacana kenaikan harga tiket Candi Borobudur yang diperoleh dari 8.410 cuitan di twitter. Jumlah cuitan didominasi kata bersentimen positif. Jumlah cuitan yang mengandung sentimen positif ada sebanyak 5.333 cuitan dengan 13.071 kata bersentimen positif, sedangkan jumlah cuitan yang mengandung kata bersentimen negatif adalah 5.720 cuitan dengan 12.032 kata bersentimen negatif. 
+Berdasarkan grafik tersebut mengindikasikan bahwa warganet sebagian masih menentang terkait wacana kenaikan harga Candi Borobudur. Kemudian untuk melihat pembagian klasifikasi pada sentiment analysis berdasarkan kata dapat dilihat melalui grafik berikut.  
+</p>
+
+<p align="center">
+<img src="UAS_VISDAT/Visualisasi/Sentiment_Analysis.png" > </img>
+<p align="center">
+  <caption align ="center" >Gambar 4. <i>Tree Map Sentiment Analysis </i> pada kata terkait Wacana Kenaikan Harga Tiket Candi Borobudur</caption>
+</p></p>  
+
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambar 4 menunjukkan bahwa banyak masyarakat memiliki ragam dalam beropini terkait wacana kenaikan harga tiket Candi Borobudur. Cuitan yang bersentimen negatif  adalah cuitan yang mengandung kata-kata, seperti “rusak”, “mahal”, “tidak”, “isu”, “salah”, “menunda” dan sebagainya. Untuk cuitan yang bersentimen positif merupakan cuitan yang mengandung kata-kata, seperti “besar”, ”banyak”, “setuju”, “menjaga”, ”murah”, dan sebagainya.
+Cuitan terkait pembatasan orang dan harga tiket bersentimen negatif. Cuitan tersebut tidak terlepas dari wacana yang dikemukakan oleh pemerintah yang dinilai belum matang. Selain itu cuitan bersentimen negatif banyak ditemui dengan kata kata yang memuat SARA pada akun-akun anonim.  Cuitan yang bersentimen positif terkait wacana tersebut juga cukup banyak. Cuitan ini berkaitan dengan edukasi dan ajakan melestarikan Candi Borobudur. Cuitan positif tersebut rata-rata menyetujui usulan pemerintah untuk menjaga kelestarian pada Candi Borobudur yang dituangkan dalam tweet/thread. 
+</p>
+
+<p align="center">
+<img src="UAS_VISDAT/Visualisasi/SNA.png" width="500" height="500"> </img>
+<p align="center">
+  <caption align ="center" >Gambar 5. Visualisasi Sosial Network Analysis “Borobudur” pada twitter</caption>
+</p></p> 
+
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setelah dilakukan wordcloud analysis dan sentiment analysis, analisis selanjutnya adalah social network analysis untuk mengetahui aktor yang berpengaruh terkait penyebaran wacana kenaikan harga tiket Candi Borobudur. Gambar 5 merupakan visualisasi social network analysis dari hasil crawling pada twitter terkait Borobudur. Titik pada gambar dinamakan node yang merepresentasikan seorang individu pengguna twitter, sedangkan garis yang menunjukan aktivitas retweet disebut edge. Gambar 4 terbentuk dari 7.634 aktivitas retweet yang melibatkan 7.860 akun pengguna twitter. Dari aktivitas tersebut, terbentuk 1.175 komunitas dengan seorang aktor pusat yang menjadi sumber interaksi karena sering di-retweet oleh pengguna lain.
+</p>
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sebagai bentuk pemberitahuan terkait wacana kenaikan harga tiket Candi Borobudur, pemerintah dapat memanfaatkan pengguna/akun twitter yang memiliki pengaruh besar untuk memberikan informasi-informasi yang benar, memberikan edukasi terkait Candi Borobudur. Selain itu, akun-akun tersebut juga dapat digunakan untuk memberikan masukan kepada pemerintah terkait wacana kenaikan harga tiket Candi Borobudur. 
+</p>
+
+<p align="center">
+<caption align ="center" >Tabel 1. NILAI CENTRALITY PENGGUNA TWITTER BERPENGARUH </caption>
+<table border="1" align ="center">
+        <tr>
+            <td>Nama Pengguna/Akun</td>
+            <td>Score Degree Centrality </td>
+            <td>Score Closeness Centrality</td>
+            <td>Score Eigenvector Centrality </td>
+        </tr>
+        <tr>
+            <td>@ganjarpranowo</td>
+            <td>166 </td>
+            <td>0</td>
+            <td>1.0 </td>
+        </tr>
+          <tr>
+            <td>@detikcom</td>
+            <td>25 </td>
+            <td>1</td>
+            <td>0.13</td>
+        </tr>
+     <tr>
+            <td>@aremanita_</td>
+            <td>20 </td>
+            <td>0.5652</td>
+            <td>0.58</td>
+        </tr>
+        <tr>
+            <td>@cnnindonesia</td>
+            <td>15 </td>
+            <td>0.0</td>
+            <td>0.07</td>
+        </tr>
+        <tr>
+            <td>@kompascom</td>
+            <td>13 </td>
+            <td>1</td>
+            <td>0.06</td>
+        </tr>
+  </table>
+  </center>
+  </p>
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tabel 1 menunjukan bahwa terdapat lima akun yang memiliki pengaruh dalam penyebaran informasi terkait wacana kenaikan harga tiket Candi Borobudur di twitter. Akun @ganjarpranowo memiliki skor degree centrality dan eigenvector centrality paling tinggi dibandingkan akun lainnya. Hal ini berarti, akun @ganjarpranowo memiliki jumlah mention terbanyak, dan unggul dalam hubungannya dengan pengguna berpengaruh lain di dalam jaringan twitter.
+</p>
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Akun @ganjarpranowo merupakan akun dari Gubernur Jawa Tengah. Akun @ganjarpranowo memberikan informasi yang detail terkait wacana kenaikan harga tiket Candi Borobudur dan sepakat untuk menunda pemberlakuan kenaikan harga tiket Candi Borobudur bersama Menteri Koordinator Bidang Kemaritiman dan Investasi Luhut Binsar Panjaitan.
+Akun @aremanita_ memberikan usulan terkait regulasi naik ke atas Candi Borobudur melalui thread seperti bagi umat Buddha yang melakukan ibadah di Candi Borobudur digratiskan, pemberlakuan kuota dapat ditunjang dengan pendaftaran online, dan mengusulkan untuk mengevaluasi terkait harga yang diwacanakan.
+</p>
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Selain akun pengguna biasa, akun berita resmi seperti @detikcom, @cnnindonesia, @kompascom juga memiliki peran penting dalam perkembangan informasi terkait wacana kenaikan harga tiket Candi Borobudur di twitter. Hal ini tidak terlepas dari seringnya akun-akun tersebut membuat tweet berkaitan dengan perkembangan dan informasi-informasi resmi dan terpercaya terkait wacana tersebut. Sehingga warganet dapat mudah mengetahui informasi secara cepat dan akurat.
+</p>
+    
+ 
+
+
+  
+    
 <h3>5. Kesimpulan dan Saran</h3>
 <h4>A. Kesimpulan</h4>
   <ol>
-  <li>Informasi data indikator kemiskinan beserta visualisasi yang ditampilkan ke dalam dashboard meliputi:</li>
-    <ul>
-      <li>Jumlah penduduk miskin Indonesia tahun 2011-2021 (<i>line chart</i>).</li>
-      <li>Persentase penduduk miskin Indonesia pada bulan September 2021 (<i>simple text chart</i>).</li>
-      <li>Indeks kedalaman kemiskinan Indonesia tahun 2011-2021 (<i>line chart</i>).</li>
-      <li>Garis kemiskinan Indonesia menurut kebutuhan pokok (makanan dan bukan makanan) pada tahun 2011-2021 (<i>line chart</i>).</li>
-      <li>Indeks keparahan kemiskinan Indonesia tahun 2011-2021 (<i>line chart</i>).</li>
-      <li>Indeks gini Indonesia tahun 2011-2021 (<i>line chart</i>).</li>
-      <li>Persentase jumlah penduduk miskin Indonesia menurut klasifikasi wilayah (perkotaan dan perdesaan) pada bulan September2021 (<i>pie chart</i>).</li>
-      <li>Persentase angka garis kemiskinan Indonesia menurut klasifikasi wilayah (perkotaan dan perdesaan) pada bulan September 2021 (<i>pie chart</i>).</li>
-      <li>Jumlah penduduk miskin menurut provinsi di Indonesia (<i>horizontal bar chart</i> dan peta tematik interaktif).</li>
-      <li>Indeks kedalaman kemiskinan berdasarkan klasifikasi wilayah menurut provinsi di Indonesia (<i>stacked horizontal bar chart</i>).</li>
-      <li>Indeks keparahan kemiskinan berdasarkan klasifikasi wilayah menurut provinsi di Indonesia (<i>stacked horizontal bar chart</i>).</li>
-      <li>Indeks gini berdasarkan klasifikasi wilayah menurut provinsi di Indonesia (<i>stacked horizontal bar chart</i>).</li>
-      <li>Persentase penduduk miskin menurut provinsi di Indonesia tahun 2011-2021 (tabular dan <i>line chart</i>).</li>
-    </ul>
-  <li>Dashboard informasi profil kemiskinan di Indonesia tahun 2021 berhasil dibuat sesuai sesuai desain melalui beberapa tahapan perancangan dan diakhiri dengan mempublikasikan pada server Github pribadi. Halaman dashboard dapat diakses melalui tautan atau link berikut ini: https://raflizal17.github.io/Project-UAS-Visdat/</li>
-  <li>Berdasarkan hasil survei pengujian evaluasi pada dashboard menggunakan pengukuran System Usability Scale (SUS) diperoleh nilai rata-rata skor SUS sebesar 76,88. Skor SUS tersebut masuk ke dalam kategori <i>acceptable, excellent</i>, dan <i>grade</i> B.</li>
+  <li>Kata yang sering muncul terkait wacana kenaikan harga tiket Candi Borobudur adalah kata “tiket” dan “mahal”. Warganet menilai Rp 750.000 untuk biaya tiket Candi Borobudur termasuk mahal.</li>
+  <li>Cuitan terkait wacana kenaikan harga tiket Candi Borobudur didominasi oleh cuitan bersentimen negatif, yaitu sebanyak 5.720 cuitan.</li>
+  <li>Akun @ganjarpranowo merupakan akun pengguna twitter yang paling berpengaruh dalam memberikan informasi terkait wacana kenaikan harga Candi Borobudur. Akun media berita resmi memiliki peran penting dalam perkembangan informasi terkait kenaikan harga tiket Candi Borobudur di Twitter.</li>
   </ol>
-  
+    
  <h4>B. Saran </h4>
   <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saran terhadap penelitian tugas proyek ini didasarkan pada jawaban dari beberapa responden yang dianggap masuk akal dan diterima oleh penulis berdasarkan hasil survei evaluasi <i>dashboard</i> sebelumnya. Berikut ini beberapa saran yang diajukan oleh responden dan dapat dipertimbangkan untuk dilakukan perbaikan pada <i>dashboard</i> ke depannya.
-  <ul>
-   <li>Gaya <i>font</i> kurang menarik, terutama di bagian header.</li>
-   <li>Memberikan kotak penanda pada navbar utama agar pengguna bisa mengetahui sedang berada pada halaman <i>dashboard</i> yang mana.</li>
-   <li>Visualisasi peta sebaiknya diberikan fitur <i>download</i>.</li>
-   <li>Ilustrasi dashboard lebih dikembangkan lagi agar <i>easy to use</i>.</li>
-   <li>Tampilan <i>dashboard</i> lebih diakomodasikan secara responsif untuk pengguna <i>smartphone</i>.</li>
-  </ul>
+  <ol>
+   <li>Pemerintah diharapkan tidak terburu-buru dalam menetapkan kebijakan atau pernyataan sehingga tidak menimbulkan kegaduhan di sosial media.</li>
+   <li>Pemerintah dapat bekerjasama dengan media dan akun yang memiliki pengaruh besar untuk memberikan informasi yang benar dan memberikan edukasi sebelum memberikan pernyataan.</li>
+  </ol>
  </p>
   
 
