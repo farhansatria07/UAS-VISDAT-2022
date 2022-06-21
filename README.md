@@ -58,14 +58,26 @@ Dengan fitur thread dan trending, twitter cocok untuk dijadikan tempat diskusi d
 </p>
 
 <p align="center">
-<img src="UAS_VISDAT/Visualisasi/Word_Cloud.jpg" width="300" height="300"> </img>
+<img src="UAS_VISDAT/Foto_Pendukung/Timestamp.PNG"> </img>
 <p align="center">
-<caption align ="center" >Gambar 2. Wordcloud Wacana Kenaikan Harga Tiket Candi Borobudur</caption>
+<caption align ="center" >Gambar 2.Timestamp Twitter Berkaitan dengan Borobudur</caption>
 </p>
 </p>
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisis wordcloud digunakan untuk mengetahui kata-kata yang sering muncul terkait wacana kenaikan harga tiket Candi Borobudur. Semakin sering sebuah kata muncul, maka ukuran kata yang muncul akan semakin besar. Gambar 2 menunjukan bahwa tiga kata yang paling sering muncul adalah kata ”Borobudur”, “Candi” dan “Buddha”.
+Berdasarkan gambar di atas, dapat dilihat bahwa frekuensi tweet per hari tidak merata. Pada tanggal 5 Juni 2022, jumlah tweet mencapai lebih dari 1000 tweet. Hal ini disebabkan karena pada hari itu Menteri Koordinator Bidang Kemaritiman dan Investasi Luhut Binsar Panjaitan mengumumkan terkait kenaikan tarif tiket candi Borobudur. Pada tanggal 6 Juni 2022, jumlah tweet meningkat hingga lebih dari 1300 tweet. Hal ini disebabkan karena tanggal 6 Juni 2022 sedang gencarnya akun berita dalam memberikan informasi terkait pro-kontra terkait wacana tersebut dan ramainya warganet dalam menanggapi.
+Tweet kembali menurun setelah tanggal 8 Juni 2022. Jumlah tweet per-hari berjumlah kurang dari 500 tweet sejak diinformasikan akan ditunda kebijakan tersebut. Berbeda dengan sebelum adanya wacana terkait kenaikan harga tiket Candi Borobudur, jumlah tweet seringkali tidak mencapai 250 tweet per-hari. Dari hasil tersebut dapat disimpulkan bahwa jumlah tweet akan mengalami peningkatan yang signifikan ketika terdapat tokoh publik yang menginformasikan tentang kebijakan pemerintah
+</p>
+
+<p align="center">
+<img src="UAS_VISDAT/Visualisasi/Word_Cloud.jpg" width="300" height="300"> </img>
+<p align="center">
+<caption align ="center" >Gambar 3. Wordcloud Wacana Kenaikan Harga Tiket Candi Borobudur</caption>
+</p>
+</p>
+
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analisis wordcloud digunakan untuk mengetahui kata-kata yang sering muncul terkait wacana kenaikan harga tiket Candi Borobudur. Semakin sering sebuah kata muncul, maka ukuran kata yang muncul akan semakin besar. Gambar 3 menunjukan bahwa tiga kata yang paling sering muncul adalah kata ”Borobudur”, “Candi” dan “Buddha”.
 </p>
 <p align="justify">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kata yang sering muncul adalah “Borobudur”, “candi”, dan “Buddha” dengan total 310 cuitan. Ketiga kata tersebut memiliki korelasi yang sangat kuat karena Candi Borobudur merupakan Candi Buddha terbesar di Dunia Kata Selanjutnya yang sering muncul adalah “patung” pada 40 cuitan. Seperti yang diketahui salah satu penyebab wacana terkait kenaikan harga tiket Candi Borobudur karena beberapa patung mengalami kerentanan, pelapukan batuan, ancaman erupsi merapi dan adanya vandalisme.
@@ -77,33 +89,33 @@ Dengan fitur thread dan trending, twitter cocok untuk dijadikan tempat diskusi d
 <p align="center">
 <img src="UAS_VISDAT/Visualisasi/Sentimen(1).PNG" > </img>
 <p align="center">
-  <caption align ="center" >Gambar 3. <i>Pie Chart Sentiment Analysis</i> pada cuitan terkait Wacana Kenaikan Harga Tiket Candi Borobudur</caption>
+  <caption align ="center" >Gambar 4. <i>Pie Chart Sentiment Analysis</i> pada cuitan terkait Wacana Kenaikan Harga Tiket Candi Borobudur</caption>
 </p></p>
   
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambar 3 menunjukkan hasil sentiment analysis terkait wacana kenaikan harga tiket Candi Borobudur yang diperoleh dari 8.410 cuitan di twitter. Jumlah cuitan didominasi kata bersentimen positif. Jumlah cuitan yang mengandung sentimen positif ada sebanyak 5.333 cuitan dengan 13.071 kata bersentimen positif, sedangkan jumlah cuitan yang mengandung kata bersentimen negatif adalah 5.720 cuitan dengan 12.032 kata bersentimen negatif. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambar 4 menunjukkan hasil sentiment analysis terkait wacana kenaikan harga tiket Candi Borobudur yang diperoleh dari 8.410 cuitan di twitter. Jumlah cuitan didominasi kata bersentimen positif. Jumlah cuitan yang mengandung sentimen positif ada sebanyak 5.333 cuitan dengan 13.071 kata bersentimen positif, sedangkan jumlah cuitan yang mengandung kata bersentimen negatif adalah 5.720 cuitan dengan 12.032 kata bersentimen negatif. 
 Berdasarkan grafik tersebut mengindikasikan bahwa warganet sebagian masih menentang terkait wacana kenaikan harga Candi Borobudur. Kemudian untuk melihat pembagian klasifikasi pada sentiment analysis berdasarkan kata dapat dilihat melalui grafik berikut.  
 </p>
 
 <p align="center">
 <img src="UAS_VISDAT/Visualisasi/Sentiment_Analysis.png" > </img>
 <p align="center">
-  <caption align ="center" >Gambar 4. <i>Tree Map Sentiment Analysis </i> pada kata terkait Wacana Kenaikan Harga Tiket Candi Borobudur</caption>
+  <caption align ="center" >Gambar 5. <i>Tree Map Sentiment Analysis </i> pada kata terkait Wacana Kenaikan Harga Tiket Candi Borobudur</caption>
 </p></p>  
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambar 4 menunjukkan bahwa banyak masyarakat memiliki ragam dalam beropini terkait wacana kenaikan harga tiket Candi Borobudur. Cuitan yang bersentimen negatif  adalah cuitan yang mengandung kata-kata, seperti “rusak”, “mahal”, “tidak”, “isu”, “salah”, “menunda” dan sebagainya. Untuk cuitan yang bersentimen positif merupakan cuitan yang mengandung kata-kata, seperti “besar”, ”banyak”, “setuju”, “menjaga”, ”murah”, dan sebagainya.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gambar 5 menunjukkan bahwa banyak masyarakat memiliki ragam dalam beropini terkait wacana kenaikan harga tiket Candi Borobudur. Cuitan yang bersentimen negatif  adalah cuitan yang mengandung kata-kata, seperti “rusak”, “mahal”, “tidak”, “isu”, “salah”, “menunda” dan sebagainya. Untuk cuitan yang bersentimen positif merupakan cuitan yang mengandung kata-kata, seperti “besar”, ”banyak”, “setuju”, “menjaga”, ”murah”, dan sebagainya.
 Cuitan terkait pembatasan orang dan harga tiket bersentimen negatif. Cuitan tersebut tidak terlepas dari wacana yang dikemukakan oleh pemerintah yang dinilai belum matang. Selain itu cuitan bersentimen negatif banyak ditemui dengan kata kata yang memuat SARA pada akun-akun anonim.  Cuitan yang bersentimen positif terkait wacana tersebut juga cukup banyak. Cuitan ini berkaitan dengan edukasi dan ajakan melestarikan Candi Borobudur. Cuitan positif tersebut rata-rata menyetujui usulan pemerintah untuk menjaga kelestarian pada Candi Borobudur yang dituangkan dalam tweet/thread. 
 </p>
 
 <p align="center">
-<img src="UAS_VISDAT/Visualisasi/SNA.png" width="500" height="500"> </img>
+<img src="UAS_VISDAT/Visualisasi/SNA(1).PNG" width="500" height="500"> </img>
 <p align="center">
-  <caption align ="center" >Gambar 5. Visualisasi Sosial Network Analysis “Borobudur” pada twitter</caption>
+  <caption align ="center" >Gambar 6. Visualisasi Sosial Network Analysis “Borobudur” pada twitter</caption>
 </p></p> 
 
 <p align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setelah dilakukan wordcloud analysis dan sentiment analysis, analisis selanjutnya adalah social network analysis untuk mengetahui aktor yang berpengaruh terkait penyebaran wacana kenaikan harga tiket Candi Borobudur. Gambar 5 merupakan visualisasi social network analysis dari hasil crawling pada twitter terkait Borobudur. Titik pada gambar dinamakan node yang merepresentasikan seorang individu pengguna twitter, sedangkan garis yang menunjukan aktivitas retweet disebut edge. Gambar 4 terbentuk dari 7.634 aktivitas retweet yang melibatkan 7.860 akun pengguna twitter. Dari aktivitas tersebut, terbentuk 1.175 komunitas dengan seorang aktor pusat yang menjadi sumber interaksi karena sering di-retweet oleh pengguna lain.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setelah dilakukan wordcloud analysis dan sentiment analysis, analisis selanjutnya adalah social network analysis untuk mengetahui aktor yang berpengaruh terkait penyebaran wacana kenaikan harga tiket Candi Borobudur. Gambar 6 merupakan visualisasi social network analysis dari hasil crawling pada twitter terkait Borobudur. Titik pada gambar dinamakan node yang merepresentasikan seorang individu pengguna twitter, sedangkan garis yang menunjukan aktivitas retweet disebut edge. Gambar 6 terbentuk dari 7.634 aktivitas retweet yang melibatkan 7.860 akun pengguna twitter. Dari aktivitas tersebut, terbentuk 1.175 komunitas dengan seorang aktor pusat yang menjadi sumber interaksi karena sering di-retweet oleh pengguna lain.
 </p>
 <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sebagai bentuk pemberitahuan terkait wacana kenaikan harga tiket Candi Borobudur, pemerintah dapat memanfaatkan pengguna/akun twitter yang memiliki pengaruh besar untuk memberikan informasi-informasi yang benar, memberikan edukasi terkait Candi Borobudur. Selain itu, akun-akun tersebut juga dapat digunakan untuk memberikan masukan kepada pemerintah terkait wacana kenaikan harga tiket Candi Borobudur. 
